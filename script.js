@@ -39,7 +39,7 @@ http.onload = function(){
 							 <h3>Machine: ${item.MACHINE}</h3>
 						</div>
 						 <div class="col-3">
-						   <button type="button" class="btn btn-success">Status: ${item.STATUS}</button>
+						   <button class="btn btn-success">Status: ${item.STATUS}</button>
 						 </div>
 					 </div>
 					

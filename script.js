@@ -31,18 +31,18 @@ http.onload = function(){
 		// i add an html template to the output variable.
 		for(let item of products){
 			output += `
-				<div class="card">
-				<div class="col-12">
+				<div class="products">
+				
 					<div class="row">
 				
-						<div class="col-6">
+						<div class="col-9">
 							 <h3>Machine: ${item.MACHINE}</h3>
 						</div>
-						 <div class="col-6">
+						 <div class="col-3">
 						 <button> ${item.STATUS}</button>
 						 </div>
 					 </div>
-					 </div>
+					
 				      <p>Performance: ${item.PERFORMANCE}</p>
 				     
 				      <p>Running Since: ${item['RUNNING SINCE']}</p>

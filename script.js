@@ -32,13 +32,15 @@ http.onload = function(){
 		for(let item of products){
 			output += `
 				<div class="product">
-				<div class="row">
 				<div class="col-12">
-				<div class="col-6">
-					 <h3>Machine: ${item.MACHINE}</h3></div>
-					 <div class="col-6">
-					 <button> ${item.STATUS}</button>
-					 </div>
+					<div class="row">
+				
+						<div class="col-6">
+							 <h3>Machine: ${item.MACHINE}</h3>
+						</div>
+						 <div class="col-6">
+						 <button> ${item.STATUS}</button>
+						 </div>
 					 </div>
 					 </div>
 				      <p>Performance: ${item.PERFORMANCE}</p>

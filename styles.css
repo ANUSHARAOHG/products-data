@@ -24,18 +24,14 @@ h3 {
 	max-width: 1240px;
 	padding: 20px;
 }
-.btn-success {
-    color: #fff;
-    background: #13bfa6 !important;
-    border-color: #35b9a6;
-}
+
 .product{
 	padding: 10px;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
-.product .status{
+.product .btn-success {
     color: #fff;
     background: #13bfa6 !important;
-    border-color: #35b9a6;	
+    border-color: #35b9a6;
 }
 

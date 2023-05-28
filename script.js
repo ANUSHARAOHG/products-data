@@ -52,10 +52,41 @@ http.onload = function(){
 					
 				</div>
 				
+				
 			`;
 		}
 		/* and last i target the products container and add the data that the
 		output variable holds. */
 		document.querySelector(".products").innerHTML = output;
+	},
+		for(let itemnon of nonproducts){
+			output += `
+				<div class="nonproduct">
+				
+					<div class="row">
+				
+						<div class="col-6">
+							 <h3>Machine: ${itemnon.MACHINE}</h3>
+						</div>
+						 <div class="col-6">
+						 <button> ${itemnon.STATUS}</button>
+						 </div>
+					 </div>
+					
+				      <p>Performance: ${itemnon.PERFORMANCE}</p>
+				     
+			
+				      <p>Stopped Since: ${itemnon['STOPPED SINCE']}</p>
+				      <p>Parts Produced: ${itemnon['PARTS PRODUCED']}</p>
+					
+					
+				</div>
+				
+				
+			`;
+		}
+		/* and last i target the products container and add the data that the
+		output variable holds. */
+		document.querySelector(".nonproducts").innerHTML = output;
 	}
 } 

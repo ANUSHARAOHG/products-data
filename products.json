@@ -1,38 +1,43 @@
-[
-	{
-		"image": "products/01.jpg",
-		"title": "Machine: IMM-01",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	},
-	{
-		"image": "products/02.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	},
-	{
-		"image": "products/03.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	},
-	{
-		"image": "products/04.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	},
-	{
-		"image": "products/05.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	},
-	{
-		"image": "products/06.jpg",
-		"title": "Product title",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing, elit. Blanditiis, ducimus.",
-		"price": "9,99"
-	}
+[{
+    "MACHINE": "IMM-01",
+    "PERFORMANCE": "98",
+    "RUNNING SINCE": "2h: 30 m: 15 s",
+    "PARTS PRODUCED": "1250",
+    "STATUS": "RUNNING"
+},
+{
+    "MACHINE": "IMM-02",
+    "PERFORMANCE": "70",
+    "RUNNING SINCE": "1h: 30 m: 15 s",
+    "PARTS PRODUCED": "2450",
+    "STATUS": "RUNNING"
+},
+{
+    "MACHINE": "IMM-03",
+    "PERFORMANCE": "28",
+    "STOPPED SINCE": "30 m: 15 s",
+    "PARTS PRODUCED": "24",
+    "STATUS": "STOPPED"
+},
+{
+    "MACHINE": "IMM-04",
+    "PERFORMANCE": "98",
+    "RUNNING SINCE": "2h: 30 m: 15 s",
+    "PARTS PRODUCED": "1250",
+    "STATUS": "RUNNING"
+},
+{
+    "MACHINE": "IMM-05",
+    "PERFORMANCE": "70",
+    "RUNNING SINCE": "1h: 30 m: 15 s",
+    "PARTS PRODUCED": "2450",
+    "STATUS": "RUNNING"
+},
+{
+    "MACHINE": "IMM-06",
+    "PERFORMANCE": "28",
+    "STOPPED SINCE": "30 m: 15 s",
+    "PARTS PRODUCED": "24",
+    "STATUS": "STOPPED"
+}
 ]

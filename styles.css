@@ -1,14 +1,12 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family:'Times New Roman', Times, serif;
+  color:#222;
 }
 
-body{
-	font-family: 'Montserrat', sans-serif;
-	min-height: 100vh;
-	color: #555;
-}
 
 h2{
 	text-align: center;

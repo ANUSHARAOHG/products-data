@@ -34,12 +34,12 @@ http.onload = function(){
 				<div class="product">
 					 <h3>Machine: ${item.MACHINE}</h3>
 				      <p>Performance: ${item.PERFORMANCE}</p>
-				      <p>Status: ${item.STATUS}</p>
+				      <button>Status: ${item.STATUS}</button>
 				      <p>Running Since: ${item['RUNNING SINCE']}</p>
 				      <p>Stopped Since: ${item['STOPPED SINCE']}</p>
 				      <p>Parts Produced: ${item['PARTS PRODUCED']}</p>
 					
-					<p class="cart">RUNNING <i class="bx bx-cart-alt"></i></p>
+					
 				</div>
 				
 			`;

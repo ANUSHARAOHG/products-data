@@ -34,11 +34,11 @@ http.onload = function(){
 				<div class="product">
 					
 					<p class="title">${item.MACHINE}</p>
-// 					<p class="description">${item.description}</p>
-// 					<p class="price">
-// 						<span>${item.price}</span>
-// 						<span>&euro;</span>
-// 					</p>
+					<p class="description">${item.PERFORMANCE}</p>
+					<p class="price">
+						<span>${item.STATUS}</span>
+						
+					</p>
 					<p class="cart">Add to cart <i class="bx bx-cart-alt"></i></p>
 				</div>
 			`;

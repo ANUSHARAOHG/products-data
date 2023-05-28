@@ -35,10 +35,10 @@ http.onload = function(){
 				
 					<div class="row">
 				
-						<div class="col-6">
+						<div class="col-9">
 							 <h3>Machine: ${item.MACHINE}</h3>
 						</div>
-						 <div class="col-6">
+						 <div class="col-3">
 						 <button> ${item.STATUS}</button>
 						 </div>
 					 </div>

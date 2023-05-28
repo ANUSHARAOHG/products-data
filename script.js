@@ -33,13 +33,13 @@ http.onload = function(){
 			output += `
 				<div class="product">
 					 <h3>Machine: ${item.MACHINE}</h3>
-              <p>Performance: ${item.PERFORMANCE}</p>
-              <p>Status: ${item.STATUS}</p>
-              <p>Running Since: ${item['RUNNING SINCE']}</p>
-              <p>Stopped Since: ${item['STOPPED SINCE']}</p>
-              <p>Parts Produced: ${item['PARTS PRODUCED']}</p>
+				      <p>Performance: ${item.PERFORMANCE}</p>
+				      <p>Status: ${item.STATUS}</p>
+				      <p>Running Since: ${item['RUNNING SINCE']}</p>
+				      <p>Stopped Since: ${item['STOPPED SINCE']}</p>
+				      <p>Parts Produced: ${item['PARTS PRODUCED']}</p>
 					
-					<p class="cart">Add to cart <i class="bx bx-cart-alt"></i></p>
+					<p class="cart">RUNNING <i class="bx bx-cart-alt"></i></p>
 				</div>
 				
 			`;

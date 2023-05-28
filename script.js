@@ -31,7 +31,7 @@ http.onload = function(){
 		// i add an html template to the output variable.
 		for(let item of products){
 			output += `
-				<div class="product">
+				<div class="card">
 				<div class="col-12">
 					<div class="row">
 				

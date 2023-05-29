@@ -44,8 +44,7 @@ $(document).ready(function () {
               <div class="col-5">
               <p>${machine["RUNNING SINCE"]}</p>
               </div>
-              </div>
-              </div>
+              
             `: `
             <div class="col-12">
             <div class="row">

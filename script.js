@@ -16,7 +16,7 @@ $(document).ready(function() {
               <p>Parts Produced: ${machine['PARTS PRODUCED']}</p>
             </div>
           `;
-          $('#machine-container').append(cardHtml);
+          $('#products').append(cardHtml);
         });
       },
       error: function() {

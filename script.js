@@ -60,7 +60,7 @@ $(document).ready(function () {
             }
             </p>
           </div>
-      <hr>
+      
       <div class="col-12">
       <div class="row">
       <div class="col-9">

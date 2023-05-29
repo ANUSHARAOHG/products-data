@@ -39,16 +39,18 @@ $(document).ready(function () {
                 ? `
                 <div class="row">
               <div class="col-7">
-                <p > Running Since:</p>
+                <p> Running Since:</p>
               </div>
               <div class="col-5">
-              <p >${machine["RUNNING SINCE"]}</p>
+              <p>${machine["RUNNING SINCE"]}</p>
+              </div>
+              </div>
               </div>
             `: `
             <div class="col-12">
             <div class="row">
               <div class="col-7">
-                <p >Stopped Since:</p>
+                <p>Stopped Since:</p>
               </div>
               <div class="col-5">
               <p >${machine["STOPPED SINCE"]}</p>

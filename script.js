@@ -47,10 +47,10 @@ $(document).ready(function () {
             `: `
             <div class="col-12">
             <div class="row">
-              <div class="col-8">
+              <div class="col-7">
                 <p >Stopped Since:</p>
               </div>
-              <div class="col-4">
+              <div class="col-5">
               <p >${machine["STOPPED SINCE"]}</p>
               </div>
               </div>
@@ -60,7 +60,7 @@ $(document).ready(function () {
             }
             </p>
           </div>
-      
+      <hr>
       <div class="col-12">
       <div class="row">
       <div class="col-9">

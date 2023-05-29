@@ -71,7 +71,7 @@ $(document).ready(function () {
   </div>
 </div>
 </div>
-</div>
+
           `;
         $("#products").append(cardHtml);
       });

@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // AJAX request to fetch the machine data
     $.ajax({
-      url: 'machines.json', // Replace 'machines.json' with the path to your JSON file
+      url: 'products.json', // Replace 'machines.json' with the path to your JSON file
       dataType: 'json',
       success: function(data) {
         // Iterate over each machine object and create a card

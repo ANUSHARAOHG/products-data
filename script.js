@@ -63,10 +63,10 @@ $(document).ready(function () {
       <hr>
       <div class="col-12">
       <div class="row">
-      <div class="col-6">
-        <p>Performance:</p>
+      <div class="col-9">
+        <p>Parts Produced:</p>
   </div>
-  <div class="col-6">
+  <div class="col-3">
   <p>${machine["PARTS PRODUCED"]}</p>
   </div>
 </div>

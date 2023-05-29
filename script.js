@@ -10,7 +10,7 @@ $(document).ready(function() {
             <div class="product">
               <h3>Machine: ${machine.MACHINE}</h3>
               <p>Performance: ${machine.PERFORMANCE}</p>
-              <button>Status: ${machine.STATUS}</button>
+              <button class="btn btn success">Status: ${machine.STATUS}</button>
               <p>Running Since: ${machine['RUNNING SINCE']}</p>
               <p>Stopped Since: ${machine['STOPPED SINCE']}</p>
               <p>Parts Produced: ${machine['PARTS PRODUCED']}</p>
